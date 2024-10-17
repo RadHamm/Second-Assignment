@@ -1,0 +1,61 @@
+/* Style the webpage body*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style the header*/
+h1 {
+    color:#0400ff
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 10px;
+    width: 150px;
+    border: 3px solid #007BFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+/* Specific styles for each button */
+#save-btn {
+    background-color: #00ff3c;
+}
+
+#clear-btn {
+    background-color: #ff0019;
+}
+
+/* Hover effects for buttons */
+button:hover {
+    transform: scale(1.5);
+}
+
+/* Style the displayed name paragraph */
+#display-name {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgb(255, 0, 212);
+    border-radius: 5px;
+}
